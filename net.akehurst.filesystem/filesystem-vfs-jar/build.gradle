@@ -1,0 +1,6 @@
+dependencies {
+	
+	implementation project(":filesystem-vfs-common")
+	implementation "org.apache.commons:commons-vfs2:2.2"
+	
+}

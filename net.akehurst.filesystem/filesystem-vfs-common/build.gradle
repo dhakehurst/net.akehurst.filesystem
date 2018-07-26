@@ -1,0 +1,6 @@
+dependencies {
+	
+	api project(":filesystem-api")
+	api "org.apache.commons:commons-vfs2:2.2"
+
+}

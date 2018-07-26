@@ -1,0 +1,6 @@
+dependencies {
+	
+	api project(":filesystem-api")
+	implementation project(":filesystem-vfs-common")
+	
+}
