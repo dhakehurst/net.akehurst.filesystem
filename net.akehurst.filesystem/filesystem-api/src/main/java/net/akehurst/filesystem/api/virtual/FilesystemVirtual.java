@@ -1,8 +1,9 @@
 package net.akehurst.filesystem.api.virtual;
 
 import net.akehurst.filesystem.api.DirectoryEntry;
+import net.akehurst.filesystem.api.readwrite.FilesystemReadWrite;
 
-public interface FilesystemVirtual {
+public interface FilesystemVirtual extends FilesystemReadWrite {
 
 	/**
 	 *
